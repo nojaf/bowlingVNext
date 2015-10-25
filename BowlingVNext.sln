@@ -1,0 +1,42 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{DCD09BBB-13A6-4DA5-BDDE-D9B9FF70E73A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{7BC96643-3825-41ED-AA9C-BFF351E999E4}"
+	ProjectSection(SolutionItems) = preProject
+		global.json = global.json
+		NuGet.Config = NuGet.Config
+	EndProjectSection
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "BowlingVNext", "src\BowlingVNext\BowlingVNext.xproj", "{69CD9C06-283C-4EAF-8563-74CE8302788F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "test", "test", "{4BD187B5-BC02-42BF-B427-49C5284DBDFF}"
+EndProject
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "BowlingVNext.Tests", "test\BowlingVNext.Tests\BowlingVNext.Tests.xproj", "{99A151FE-18B4-4DBA-9778-2E13DD960C72}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{69CD9C06-283C-4EAF-8563-74CE8302788F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{69CD9C06-283C-4EAF-8563-74CE8302788F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{69CD9C06-283C-4EAF-8563-74CE8302788F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{69CD9C06-283C-4EAF-8563-74CE8302788F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99A151FE-18B4-4DBA-9778-2E13DD960C72}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{99A151FE-18B4-4DBA-9778-2E13DD960C72}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99A151FE-18B4-4DBA-9778-2E13DD960C72}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{99A151FE-18B4-4DBA-9778-2E13DD960C72}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{69CD9C06-283C-4EAF-8563-74CE8302788F} = {DCD09BBB-13A6-4DA5-BDDE-D9B9FF70E73A}
+		{99A151FE-18B4-4DBA-9778-2E13DD960C72} = {4BD187B5-BC02-42BF-B427-49C5284DBDFF}
+	EndGlobalSection
+EndGlobal
